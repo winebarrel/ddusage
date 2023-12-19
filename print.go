@@ -55,10 +55,12 @@ func breakdownUsage(resp *datadogV1.UsageSummaryResponse) (UsageBreakdown, []str
 		}
 
 		if len(u.Orgs) == 0 {
-			breakdownUsageByOrg("-", u.AdditionalProperties)
+			props := util.RespToMap(u)
+			breakdownUsageByOrg("-", props)
 		} else {
 			for _, org := range u.Orgs {
-				breakdownUsageByOrg(*org.Name, org.AdditionalProperties)
+				props := util.RespToMap(org)
+				breakdownUsageByOrg(*org.Name, props)
 			}
 		}
 	}
