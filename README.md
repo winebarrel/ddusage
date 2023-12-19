@@ -45,3 +45,7 @@ $ ddusage -x -H
 ```
 brew install winebarrel/ddusage/ddusage
 ```
+
+## Related Links
+
+- https://github.com/winebarrel/ddcost
