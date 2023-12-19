@@ -1,0 +1,24 @@
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - main: ./cmd/ddusage
+    ldflags:
+      - -X main.version={{.Version}}
+    env:
+      - CGO_ENABLED=0
+checksum:
+  name_template: "checksums.txt"
+archives:
+  - format_overrides:
+      - goos: windows
+        format: zip
+brews:
+  - repository:
+      owner: winebarrel
+      name: homebrew-ddusage
+    homepage: https://github.com/winebarrel/ddusage
+    description: A tool that shows a breakdown of Datadog usages in a table.
+    license: MIT
+    install: |
+      bin.install 'ddusage'
