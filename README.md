@@ -25,19 +25,10 @@ Flags:
 $ export DD_API_KEY=...
 $ export DD_APP_KEY=...
 $ ddusage -x -H
-       ORG       |       PRODUCT       | 2022-12 | 2023-01 | 2023-02 | 2023-03 | 2023-04
------------------+---------------------+---------+---------+---------+---------+----------
-  organization1  | fargate_container   | 1       | 1       | 1       | 1       | 1
-                 |                     | 2       | 2       | 2       | 2       | 2
-                 |                     | 3       | 3       | 3       | 3       | 3
-                 | logs_indexed_15day  | 0.5M    | 0.5M    | 0.5M    | 0.5M    | 0.5M
-                 |                     | 0.5M    | 0.5M    | 0.5M    | 0.5M    | 0.5M
-  organization2  | infra_host          | 10      | 10      | 10      | 10      | 10
-                 |                     | 20      | 20      | 20      | 20      | 20
-                 |                     | 30      | 30      | 30      | 30      |30
-                 | logs_indexed_15day  | 1M      | 1M      | 1M      | 1M      | 1M
-                 |                     | 1.5M    | 1.5M    | 1.5M    | 1.5M    | 1.5M
-                 |                     | 2.5M    | 2.5M    | 2.5M    | 2.5M    | 2.5M
+       ORG       |               PRODUCT               | 2022-12 | 2023-01 | 2023-02 | 2023-03 | 2023-04
+-----------------+-------------------------------------+---------+---------+---------+---------+----------
+  organization1  | apm_host_incl_usm_top99p            | 1       | 1       | 1       | 1       | 1
+  organization2  | logs_indexed_logs_usage_sum_15_day  | 1M      | 1M      | 1M      | 1M      | 1M
 ```
 
 ## Installation
