@@ -15,7 +15,7 @@ import (
 type Usage float64
 
 func (c Usage) String() string {
-	return fmt.Sprintf("%.0f", c)
+	return humanize.FtoaWithDigits(float64(c), 2)
 }
 
 func (c Usage) Float64() float64 {
