@@ -17,7 +17,7 @@ Flags:
   -o, --output="table"         Formatting style for output (table, tsv, json, csv).
   -s, --start-month=STRING     Usage beginning this month.
   -e, --end-month=STRING       Usage ending this month.
-  -H, --humanize               Convert usage numbers to to human-friendly strings.
+  -H, --humanize               Convert usage numbers to human-friendly strings.
       --version
 ```
 

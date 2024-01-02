@@ -26,7 +26,7 @@ type PrintUsageSummaryOptions struct {
 	Output            string `short:"o" enum:"table,tsv,json,csv" default:"table" help:"Formatting style for output (table, tsv, json, csv)."`
 	StartMonth        string `short:"s" help:"Usage beginning this month."`
 	EndMonth          string `short:"e" help:"Usage ending this month."`
-	Humanize          bool   `short:"H" help:"Convert usage numbers to to human-friendly strings."`
+	Humanize          bool   `short:"H" help:"Convert usage numbers to human-friendly strings."`
 }
 
 func (options *PrintUsageSummaryOptions) calcPeriod() (time.Time, time.Time, error) {
