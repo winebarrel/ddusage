@@ -4,7 +4,7 @@ go 1.21.5
 
 require (
 	github.com/DataDog/datadog-api-client-go/v2 v2.30.0
-	github.com/alecthomas/kong v0.9.0
+	github.com/alecthomas/kong v1.2.1
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/dustin/go-humanize v1.0.1
 	github.com/olekukonko/tablewriter v0.0.5
