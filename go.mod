@@ -1,9 +1,10 @@
 module github.com/winebarrel/ddusage
 
 go 1.21.5
+toolchain go1.22.5
 
 require (
-	github.com/DataDog/datadog-api-client-go/v2 v2.30.0
+	github.com/DataDog/datadog-api-client-go/v2 v2.31.0
 	github.com/alecthomas/kong v1.2.1
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/dustin/go-humanize v1.0.1
