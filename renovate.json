@@ -1,6 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    ":disableDependencyDashboard"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "pgautoupgrade/pgautoupgrade"
+      ],
+      "matchManagers": [
+        "gomod"
+      ],
+      "allowedVersions": "< 1.0.0"
+    }
   ]
 }
