@@ -10,7 +10,7 @@ require (
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/dustin/go-humanize v1.0.1
 	github.com/olekukonko/tablewriter v0.0.5
-	golang.org/x/exp v0.0.0-20250711185948-6ae5c78190dc
+	golang.org/x/exp v0.0.0-20250717185816-542afb5b7346
 )
 
 require (
