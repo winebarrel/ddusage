@@ -1,6 +1,6 @@
 module github.com/winebarrel/ddusage
 
-go 1.24.0
+go 1.25.0
 
 toolchain go1.25.6
 
@@ -10,7 +10,7 @@ require (
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/dustin/go-humanize v1.0.1
 	github.com/olekukonko/tablewriter v0.0.5
-	golang.org/x/exp v0.0.0-20260112195511-716be5621a96
+	golang.org/x/exp v0.0.0-20260508232706-74f9aab9d74a
 )
 
 require (
