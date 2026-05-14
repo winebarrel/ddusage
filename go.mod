@@ -10,12 +10,12 @@ require (
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/dustin/go-humanize v1.0.1
 	github.com/olekukonko/tablewriter v0.0.5
-	golang.org/x/exp v0.0.0-20260508232706-74f9aab9d74a
 )
 
 require (
 	github.com/DataDog/zstd v1.5.2 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/mattn/go-runewidth v0.0.10 // indirect
 	github.com/rivo/uniseg v0.1.0 // indirect
 	golang.org/x/oauth2 v0.27.0 // indirect
